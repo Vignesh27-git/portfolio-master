@@ -1,6 +1,8 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 
+import html from "../../Assets/TechIcons/html.png";
+import css from "../../Assets/TechIcons/css.png";
 import Javascript from "../../Assets/TechIcons/Javascript.svg";
 import ReactIcon from "../../Assets/TechIcons/React.svg";
 import Git from "../../Assets/TechIcons/Git.svg";
@@ -12,6 +14,8 @@ import Postman from "../../Assets/TechIcons/Postman.svg";
 
 function Techstack() {
   const techItems = [
+    {img: html, name: "Hmtl"},
+    {img: css, name: "Css"},
     { img: Javascript, name: "JavaScript" },
     { img: ReactIcon, name: "React.js" },
     { img: Redux, name: "Redux" },
